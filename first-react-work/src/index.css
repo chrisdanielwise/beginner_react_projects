@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+}
+h1{
+  text-align: center;
+  margin-top: 1em;
+}
+ul{
+  padding: 0;
+  display: flex;
+  width: 60%;
+  height: 60px;
+  margin:auto ;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: hsl(0, 20%, 80%); */
+  box-shadow: 2px 2px 5px black ;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  font-size: 1.2em;
+  /* background-color: black; */
+}
+.active_Styles{
+  border-bottom:1px solid black;
+}
