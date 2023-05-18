@@ -8,20 +8,25 @@
     height: auto;
     display: grid;
     padding-block: 4em;
+    /* outline: 2px solid red; */
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     place-items: center;
     gap: 2em 0;
-    background-color: hsl(0, 31%, 31%);
+    /* background-color: hsl(0, 31%, 31%); */
+    background-color: #fff;
 }
 .product{
     border-radius: 15px;
     width: 270px;
     height: 350px;
     display: flex;
+    animation: fadeIn 1s ease-in-out;;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* background-color: crimson; */
+    /* outline: 2px solid red; */
+    background-color:#bdaf94;
+    /* background-color: black; */
 }
 .product img{
     max-width: 200px;
@@ -47,3 +52,4 @@
     color: #fff;
     cursor: pointer;
 }
+

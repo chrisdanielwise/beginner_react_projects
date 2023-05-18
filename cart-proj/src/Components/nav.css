@@ -1,15 +1,17 @@
 .navbar{
     width: 100%;
     height: 100px;
-    background-color: rgb(19, 19, 19);
+    /* background-color: rgb(19, 19, 19); */
+    background-color: orange;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 .links{
-    margin-right: 50px;
+    width: 95%;
+    margin: auto;
     display: flex;
     align-items: center;
+    /* outline: 2px solid red; */
+    justify-content: space-between;
 }
 .links a{
     text-decoration: none;

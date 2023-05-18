@@ -1,6 +1,8 @@
 import React from 'react'
 import {PRODUCT} from '../CartData'
 import Products from './products'
+
+
 import "./shop.css"
 const Shop = () => {
   return (
@@ -17,4 +19,7 @@ const Shop = () => {
   )
 }
 
+
 export default Shop
+
+

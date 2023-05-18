@@ -1,8 +1,9 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../../context/shop-context'
+
 const Products = ({value}) => {
   const { id,title, price, images} = value
-  const { addToCart, cartItems} = useContext(ShopContext)
+  const { addToCart,cartItems} = useContext(ShopContext)
   const cartItemAmount = cartItems[id]
   return (
     <>

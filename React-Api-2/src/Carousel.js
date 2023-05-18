@@ -27,7 +27,7 @@ useEffect(()=>{
   return (
     <>
       <div className="container">
-        <span class="btn">{changeData}</span>
+         
         <div id="carouselExampleControls" class="carousel slide">
           <div class="carousel-inner ">
               <img src={getData.image} class="m-auto" alt="" />
