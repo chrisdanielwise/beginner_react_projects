@@ -1,0 +1,115 @@
+{
+  "user": [
+    {
+      "id": "chris",
+      "name": "Latest Trends",
+      "password": "12345",
+      "email": "chrisdanielwise@gmail.com",
+      "phone": "02345678",
+      "country": "india",
+      "address": "2 Paradise Avenue Off Erema Street Omoku",
+      "role": "admin",
+      "gender": "male"
+    },
+    {
+      "id": "chridanielwise@gmail.com",
+      "name": "Nneeh Esther",
+      "password": "123456789",
+      "email": "chrisdanielwise@gmail.com",
+      "phone": "02345678",
+      "country": "india",
+      "address": "2 Paradise Avenue Off Erema Street Omoku",
+      "role":"user",
+      "gender": "female"
+    },
+    {
+      "id": "Rhoda",
+      "name": "Nneeh Daniel",
+      "password": "1234567890",
+      "email": "chrisdanielwise@gmail.com",
+      "phone": "02345678",
+      "country": "india",
+      "address": "2 Paradise Avenue Off Erema Street Omoku",
+      "gender": "female"
+    },
+    {
+      "id": "Eliexer",
+      "name": "Latest Trends",
+      "password": "fgsxdfgsfvszfd",
+      "email": "chrisdanielwise@gmail.com",
+      "phone": "02345678",
+      "country": "india",
+      "role":"user",
+      "address": "2 Paradise Avenue Off Erema Street Omoku",
+      "gender": "male"
+    },
+    {
+      "id": "David",
+      "name": "Nneeh David",
+      "password": "sdzsdfzdf",
+      "email": "chrisdanielwise@gmail.com",
+      "phone": "02345678",
+      "country": "india",
+      "role": "admin",
+      "address": "2 Paradise Avenue Off Erema Street Omoku",
+      "gender": "male"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com"
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com"
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com"
+    },
+    {
+      "code": 4,
+      "name": "Southee",
+      "email": "southee@in.com"
+    },
+    {
+      "code": 5,
+      "name": "boult",
+      "email": "bould@in.com"
+    }
+  ]
+}
